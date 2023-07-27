@@ -463,7 +463,7 @@ jobs:
           path: ${{ env.artifact_paths}}
 
   example:
-    runs-on: [self-hosted, type-cpx31]
+    runs-on: [self-hosted, type-cpx31, image-app-docker-ce]
     timeout-minutes: 180
     env:
       SUITE: example
